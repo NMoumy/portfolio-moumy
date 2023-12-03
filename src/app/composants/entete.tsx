@@ -11,13 +11,10 @@ export default function Entete() {
             <Link href="/">Accueil</Link>
           </li>
           <li>
-            <Link href="/projet">Projet</Link>
+            <Link href="/propos">A propos</Link>
           </li>
           <li>
-            <Link href="/">competence</Link>
-          </li>
-          <li>
-            <Link href="/">A propos</Link>
+            <Link href="/projets">Projets</Link>
           </li>
           <li>
             <a href="">Mon CV</a>

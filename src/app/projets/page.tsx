@@ -1,8 +1,8 @@
-import '../styles/projet.scss'
+import '../styles/projets.scss'
 
 export default function Projet() {
   return (
-    <main className='mainProjet'>
+    <main className='mainProjets'>
       <h1>About</h1>
       <p>This is the about page</p>
     </main>
