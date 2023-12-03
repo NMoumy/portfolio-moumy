@@ -1,9 +1,122 @@
 .accueil {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
-  background-color: rgb(255, 232, 232);
+  background-color: black;
+
+  section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-image {
+    background-image: url("../../../public/images/arriere-plan.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .section-presentation {
+    background-color: rgb(255, 255, 255);
+    padding: 6rem;
+    align-items: center;
+
+    .texte-presentation {
+      text-align: center;
+
+      h1 {
+        font-size: 3rem;
+        font-weight: 700;
+      }
+
+      h1:nth-child(2){
+        color: seagreen;
+      }
+
+    }
+
+  }
+
+  .section-propos {
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+
+    .titre-propos {
+      color: white;
+      margin: 10px 0 10px 0;
+      font-size: 2.2rem;
+    }
+
+    .bloc-propos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      height: 100%;
+      width: 100%;
+
+      .texte-propos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        overflow: hidden;
+        background-color: #7BC5AE;
+        padding: 1rem;
+        border-radius: 15px;
+        width: 80%;
+        height: 80%;
+        font-size: .8rem;
+        z-index: 2;
+  
+        @media (min-width: 748px) {
+          width: 70%;
+          height: 70%;
+          font-size: 1.2rem;
+        }
+  
+        p {
+          color: white;
+  
+        }
+  
+      }
+  
+      .bloc-anim {
+        position: absolute;
+        right: 50%;
+        top: 50%;
+        transform: translate(50%, -50%);
+        width: 80%;
+        height: 80%; 
+        background-color: #028C6A;
+        border-radius: 15px;
+        transition: transform .4s ease-in-out;
+  
+        @media (min-width: 600px) {
+          width: 70%;
+          height: 70%;
+        }
+
+      }
+
+    }
+
+    .texte-propos:hover ~ .bloc-anim {
+      transform: translate(50%, -50%) rotate(7deg);
+    }
+
+  }
+
+  .section-competence {
+   
+  }
+
+  .section-projet {
+
+  }
+
+  .section-teimoignage {
+
+  }
+
 }

@@ -1,0 +1,36 @@
+.entete {
+  width: 90%;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow-x: hidden;
+  background-color: rgb(28, 28, 28);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+
+  nav {
+
+    
+    ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 10px;
+      height: 75px;
+
+      li {
+        list-style: none;
+
+        a {
+          color: white;
+          text-decoration: none;
+        }
+
+      }
+
+    }
+
+  }
+
+}    
