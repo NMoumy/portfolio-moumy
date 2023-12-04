@@ -1,6 +1,8 @@
 import './styles/accueil.scss'
+import UnProjet from './composants/unProjet';
 import React from 'react';
 import Link from 'next/link';
+import UnTemoignage from './composants/unTemoignage';
 
 export default function Accueil() {
   return (
@@ -17,7 +19,7 @@ export default function Accueil() {
 
         <div className='bloc-propos'>
           <div className='image-propos'>
-            <img src="https://images.pexels.com/photos/19143646/pexels-photo-19143646/free-photo-of-mer-plage-sable-cote.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+            <img src="/images/image9.jpg" alt="" />
           </div>
 
           <div className='texte-propos'>
@@ -37,11 +39,21 @@ export default function Accueil() {
       </section>
 
       <section className='section-projet'>
-
+        <div className='texte-section'>
+          <h1>Mes projets</h1>
+          <Link href="/projets">Voir tout mes projets</Link>
+        </div>
+        <div className='les-projets'>
+          <UnProjet />
+          <UnProjet />
+          <UnProjet />
+        </div>
+        
       </section>
 
       <section className='section-teimoignage'>
-
+        <h1>Témoignages sur mes competences</h1>
+        <UnTemoignage />
       </section>
 
     </main>

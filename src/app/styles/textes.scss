@@ -1,0 +1,50 @@
+// Définir vos tailles de police de base pour différents écrans
+$taille-police-mobile: 16px;
+$taille-police-tablette: 18px;
+$taille-police-ordinateur: 20px;
+
+// Définir les médias queries pour différents types d'écrans
+$ecran-tablette: 768px;
+$ecran-ordinateur: 1024px;
+
+// Utiliser les médias queries pour appliquer des tailles de police différentes
+body {
+  font-size: $taille-police-mobile;
+
+  @media screen and (min-width: $ecran-tablette) {
+    font-size: $taille-police-tablette;
+  }
+
+  @media screen and (min-width: $ecran-ordinateur) {
+    font-size: $taille-police-ordinateur;
+  }
+}
+
+// Ajouter des styles de texte spécifiques pour différentes balises
+h1 {
+  font-size: 2em; // Taille de police relative à la taille de la police de base
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+p {
+  line-height: 1.5;
+}

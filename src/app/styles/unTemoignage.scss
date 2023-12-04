@@ -1,15 +1,29 @@
-// .unTemoignage {
+.unTemoignage {
+  width: 90%;
+  height: 175px;
+  padding: 20px;
+  overflow: hidden;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
-//   .nom-temoignant {
+  @media screen and (min-width: 1024px) {
+    width: 600px;
+  }
 
-//   }
+  .nom-temoignant {
+    font-size: 1.5rem;
+  }
 
-//   .role-temoignant {
+  .role-temoignant {
+    font-size: .9rem;
+  }
 
-//   }
+  .texte-temoignant {
+    font-size: 1rem;
+  }
 
-//   .texte-temoignant {
-
-//   }
-
-// }
+}
