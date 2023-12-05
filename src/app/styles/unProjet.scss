@@ -35,5 +35,25 @@
       font-size: .8rem;
     }
 
+    .les-boutons {
+      display: flex;
+      justify-content: space-around;
+
+      .bouton {
+        width: 40%;
+        padding: 5px;
+        margin-top: 5px;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
+        display: block;
+        color: rgb(255, 255, 255);
+        background-color: #3A3A3A;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        text-decoration: none;
+      }
+
+    }
+
   }
 }

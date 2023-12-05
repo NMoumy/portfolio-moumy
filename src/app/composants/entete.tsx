@@ -11,7 +11,7 @@ export default function Entete() {
             <Link href="/">Accueil</Link>
           </li>
           <li>
-            <Link href="/propos">A propos</Link>
+            <Link href="/propos">À propos</Link>
           </li>
           <li>
             <Link href="/projets">Projets</Link>

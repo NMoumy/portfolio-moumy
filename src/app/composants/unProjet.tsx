@@ -13,6 +13,10 @@ export default function UnProjet() {
           une mise en page, le texte définitif venant remplacer
           le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, on utilise un texte en faux
         </p>
+        <div className='les-boutons'>
+          <a href="bouton" className='bouton'>gitHub</a>
+          <a href="" className='bouton'>projet</a>
+        </div>
       </div>
     </div>
   )
