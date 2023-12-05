@@ -51,9 +51,7 @@ export default function Accueil() {
 
       <section className='section-teimoignage'>
         <h1>Témoignages sur mes competences</h1>
-        <div className='les-temoignages'>
-          {/* <TemoignagesCarousel /> */}
-        </div>
+        <TemoignagesCarousel />
       </section>
 
     </main>
