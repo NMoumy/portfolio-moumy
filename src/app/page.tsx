@@ -2,10 +2,7 @@ import './styles/accueil.scss'
 import LesProjets from './composants/lesProjets';
 import React from 'react';
 import Link from 'next/link';
-import UnTemoignage from './composants/unTemoignage';
-import temoignagesData from '../../data/temoignages.json';
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import TemoignagesCarousel from './composants/temoignagesCarousel';
 
 export default function Accueil() {
   return (
@@ -55,13 +52,7 @@ export default function Accueil() {
       <section className='section-teimoignage'>
         <h1>Témoignages sur mes competences</h1>
         <div className='les-temoignages'>
-        <Carousel showThumbs={false} showStatus={false} infiniteLoop useKeyboardArrows autoPlay>
-          {temoignagesData.map((temoignage, index) => (
-            <div key={index}>
-              <UnTemoignage temoignage={temoignage} />
-            </div>
-          ))}
-        </Carousel>
+          {/* <TemoignagesCarousel /> */}
         </div>
       </section>
 
