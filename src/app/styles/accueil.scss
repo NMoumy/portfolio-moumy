@@ -146,6 +146,12 @@
         margin-top: 0;
       }
     }
+
+    .les-temoignages {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+    }
   }
 
 }

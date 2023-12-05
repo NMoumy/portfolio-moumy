@@ -3,7 +3,23 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
-  background-color: rgb(255, 232, 232);
+  background-color: #FBFBFB;
+
+  .titre {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E4A943;
+    margin-bottom: 30px;
+
+    h1 {
+      padding-top: 50px;
+      color: white;
+      text-align: center;
+    }
+
+  }
+
 }

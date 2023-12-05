@@ -1,11 +1,23 @@
 import '../styles/unTemoignage.scss'
 
-export default function UnTemoignage() {
+interface Temoignage {
+  nom: string;
+  poste: string;
+  texte: string;
+}
+
+interface UnTemoignageProps {
+  temoignage: Temoignage;
+}
+
+const UnTemoignage: React.FC<UnTemoignageProps> = ({ temoignage }) => {
   return (
     <div className='unTemoignage'>
-      <h2 className='nom-temoignant'>nom-temoignant</h2>
-      <h4 className='role-temoignant'>role-temoignan</h4>
-      <p className='texte-temoignant'>texte-temoignant</p>
+      <h2 className='nom-temoignant'>{temoignage.nom}</h2>
+      <h4 className='role-temoignant'>{temoignage.poste}</h4>
+      <p className='texte-temoignant'>{temoignage.texte}</p>
     </div>
   )
 }
+
+export default UnTemoignage;

@@ -1,23 +1,36 @@
 import '../styles/unProjet.scss'
+import React from 'react'
 
-export default function UnProjet() {
+interface UnProjetProps {
+  projet: {
+    image: string
+    titre: string
+    description: string
+    githubUrl: string
+    projetUrl: string
+  }
+}
+
+const UnProjet: React.FC<UnProjetProps> = ({ projet }) => {
+  if (!projet) {
+    return <p>Projet non trouvé</p>
+  }
+
   return (
     <div className='unProjet'>
       <div className='bloc-image'>
-        <img src="/images/image8.jpg" alt="" />
+        <img src={projet.image} alt={projet.titre} />
       </div>
       <div className='bloc-info'>
-        <h2>Titre</h2>
-        <p>
-          Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer 
-          une mise en page, le texte définitif venant remplacer
-          le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, on utilise un texte en faux
-        </p>
+        <h2>{projet.titre}</h2>
+        <p>{projet.description}</p>
         <div className='les-boutons'>
-          <a href="bouton" className='bouton'>gitHub</a>
-          <a href="" className='bouton'>projet</a>
+          <a href={projet.githubUrl} className='bouton'>gitHub</a>
+          <a href={projet.projetUrl} className='bouton'>projet</a>
         </div>
       </div>
     </div>
   )
 }
+
+export default UnProjet

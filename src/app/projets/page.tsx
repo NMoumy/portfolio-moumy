@@ -4,7 +4,9 @@ import LesProjets from '../composants/lesProjets'
 export default function Projet() {
   return (
     <main className='mainProjets'>
-      <h1>Mes Projets</h1>
+      <div className='titre'>
+        <h1>Mes Projets</h1>
+      </div>
       <LesProjets />
     </main>
   )
