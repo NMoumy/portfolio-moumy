@@ -57,6 +57,11 @@
     align-items: center;
     height: 100vh;
 
+    h1 {
+      color: #2f5264;
+      font-weight: bold;
+    }
+
     .bloc-propos {
       height: 80%;
       width: 80%;
@@ -123,7 +128,11 @@
     align-items: center;
     // justify-content: space-around;
     gap: 75px;
-
+    
+    h1 {
+      color: #2f5264;
+      font-weight: bold;
+    }
 
     @media screen and (min-width: 1350px) {
       height: 100vh;
@@ -161,6 +170,8 @@
     h1 {
       text-align: center;
       margin-top: 100px;
+      color: #2f5264;
+      font-weight: bold;
 
       @media screen and (min-width: 1024px) {
         margin-top: 0;

@@ -17,7 +17,7 @@ export default function Entete() {
             <Link href="/projets">Projets</Link>
           </li>
           <li>
-            <a href="">Mon CV</a>
+            <a href="/Ndiaye_Moumy_CV.pdf" download>Telecharger CV</a>
           </li>
         </ul>
       </nav>
