@@ -2,7 +2,12 @@ import './styles/accueil.scss'
 import LesProjets from './composants/lesProjets';
 import React from 'react';
 import Link from 'next/link';
-import TemoignagesCarousel from './composants/temoignagesCarousel';
+import dynamic from 'next/dynamic';
+
+const TemoignagesCarousel = dynamic(
+  () => import('./composants/temoignagesCarousel'),
+  { ssr: false }
+);
 
 export default function Accueil() {
   return (
@@ -12,6 +17,9 @@ export default function Accueil() {
         <div className='texte-presentation'>
           <h1>Bonjour! Mon nom est</h1>
           <h1>Moumy Ndiaye</h1>
+        </div>
+        <div className='mon-image'>
+          <img src="./images/moumy.png" alt="moumy" />
         </div>
       </section>
 

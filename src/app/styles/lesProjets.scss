@@ -1,8 +1,14 @@
 .lesProjets {
   padding: 30px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 30px;
+  align-items: center;
+  gap: 40px;
+
+  @media screen and (min-width: 1350px) {
+    flex-direction: row;
+    gap: 30px;
+  }
 }

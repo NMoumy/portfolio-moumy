@@ -1,0 +1,33 @@
+.CarousselTeimoignages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+  .controles {
+    button {
+      margin: 10px;
+      cursor: pointer;
+    } 
+  }
+  
+  .les-temoignages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: flex-end;
+
+    .sur-le-cote {
+      // Styles pour les témoignages sur les côtés
+      filter: blur(1px);
+      transform: scale(0.9);
+    }
+  
+    /*.actif {
+      // Styles pour le témoignage actif\
+    }*/
+  }
+}

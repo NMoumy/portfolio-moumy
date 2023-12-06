@@ -19,15 +19,35 @@
       text-align: center;
 
       h1 {
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: 700;
         color: #2f5264;
+
+        @media screen and (min-width: 1024px) {
+          font-size: 3rem;
+        }
+
       }
 
       h1:nth-child(2){
         color: #548CA7;
       }
 
+    }
+
+    .mon-image {
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+      overflow: hidden;
+      background-color: rgb(0, 0, 0);
+      display: none;
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
     }
 
   }
@@ -102,10 +122,10 @@
   .section-projet {
     align-items: center;
     // justify-content: space-around;
-    gap:100px;
+    gap: 75px;
 
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1350px) {
       height: 100vh;
     }
 
@@ -115,7 +135,7 @@
       align-items: center;
       gap: 10px;
 
-      @media screen and (min-width: 1024px) {
+      @media screen and (min-width: 1350px) {
         flex-direction: row;
       }
 
@@ -136,7 +156,7 @@
   .section-teimoignage {
     height: 80vh;
     align-items: center;
-    gap: 100px;
+    gap: 75px;
 
     h1 {
       text-align: center;
@@ -145,12 +165,6 @@
       @media screen and (min-width: 1024px) {
         margin-top: 0;
       }
-    }
-
-    .les-temoignages {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
     }
   }
 
