@@ -19,7 +19,7 @@ export default function LesProjets({ nombreDeProjets }: LesProjetsProps) {
           <UnProjet key={index} projet={projet} />
         ))
       ) : (
-        <p>Il n'y a pas de projets à afficher.</p>
+        <p>Il n&apos;y a pas de projets à afficher.</p>
       )}
     </div>
   )

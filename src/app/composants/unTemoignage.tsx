@@ -12,7 +12,6 @@ interface UnTemoignageProps {
 }
 
 const UnTemoignage: React.FC<UnTemoignageProps> = ({ temoignage, className }) => {
-  console.log('Temoignage:', temoignage);
   return (
     <div className={`unTemoignage ${className}`}>
       <h2 className='nom-temoignant'>{temoignage.nom}</h2>
