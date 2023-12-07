@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import './styles/globals.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Entete from './composants/entete'
@@ -20,6 +21,7 @@ export default function RootLayout({
         <Entete />
           {children}
         <Footer />
+        <SpeedInsights/>
       </body>
     </html>
   )
