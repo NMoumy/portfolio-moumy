@@ -1,17 +1,18 @@
 [
   {
-    "titre": "Projet 1",
-    "description": "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant",
+    "titre": "Le Memo",
+    "description": 
+    "Dans le cadre de mon cours interfaces web réactives et animées, j'ai dû créer une application React monopage pour gérer une liste de tâches à compléter. Mon application est modulaire, adaptative et comporte des effets d'animation pertinents pour l'interactivité de l'interface utilisateur (IU).",
     "image": "/images/image1.jpg",
     "githubUrl": "https://github.com/user/projet1",
     "projetUrl": "https://www.example.com/projet1"
   },
   {
-    "titre": "Projet 2",
+    "titre": "TIM",
     "description": "Description du projet 2",
     "image": "/images/image2.jpg",
-    "githubUrl": "https://github.com/user/projet2",
-    "projetUrl": "https://www.example.com/projet2"
+    "githubUrl": "https://github.com/Hydra-5w5/hydraTim",
+    "projetUrl": "https://cidweb37.sg-host.com/"
   },
   {
     "titre": "Projet 3",
