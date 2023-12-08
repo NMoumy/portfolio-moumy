@@ -1,34 +1,54 @@
 .unTemoignage {
-  width: 300px;
+  width: 85vw;
   height: 175px;
   padding: 20px;
   overflow: hidden;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  gap: 5px;
-  background-color: #548CA7;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  gap: 2px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px inset;
+
+  @media screen and (min-width: 768px) {
+    width: 500px;
+    gap: 5px;
+  }
 
   @media screen and (min-width: 1024px) {
     width: 600px;
   }
 
   .nom-temoignant {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: #3A3A3A;
+
+    @media screen and (min-width: 768px) {
+      font-size: 1.5rem;    
+    }
+
   }
 
   .role-temoignant {
-    font-size: .9rem;
-    color: #2f5264;
+    font-size: .7rem;
+    color: #606C38;
     font-weight: bolder;
+
+    @media screen and (min-width: 768px) {
+      font-size: .9rem;    
+    }
+
   }
 
   .texte-temoignant {
-    font-size: 1rem;
-    color: rgb(255, 255, 255);
+    font-size: .8rem;
+    color: #3A3A3A;
+
+    @media screen and (min-width: 768px) {
+      font-size: 1rem;    
+    }
+
   }
 
 }

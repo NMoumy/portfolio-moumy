@@ -7,13 +7,18 @@
   }
 
   .section-presentation {
-    background-color: rgb(255, 255, 255);
+    background-color: #FEFAE0;
+    position: relative;
     height: 100vh;
     padding: 6rem;
     align-items: center;
-    background-image: url("../../../public/images/accueil.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    // background-image: url("../../../public/images/accueil.jpg");
+    // background-repeat: no-repeat;
+    // background-size: cover;
+
+    @media screen and (min-width: 1024px) {
+      background-color: #ffffff;
+    }
 
     .texte-presentation {
       text-align: center;
@@ -21,7 +26,7 @@
       h1 {
         font-size: 2rem;
         font-weight: 700;
-        color: #2f5264;
+        color: #BC6C25;
 
         @media screen and (min-width: 1024px) {
           font-size: 3rem;
@@ -30,25 +35,38 @@
       }
 
       h1:nth-child(2){
-        color: #548CA7;
+        color: #283618;
       }
 
     }
 
-    .mon-image {
-      width: 400px;
-      height: 400px;
-      border-radius: 50%;
-      overflow: hidden;
-      background-color: rgb(0, 0, 0);
-      display: none;
-
+    .deco {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 100vw;
+      height: auto;
       img {
         height: 100%;
         width: 100%;
         object-fit: cover;
       }
     }
+
+    // .mon-image {
+    //   width: 400px;
+    //   height: 400px;
+    //   border-radius: 50%;
+    //   overflow: hidden;
+    //   background-color: rgb(0, 0, 0);
+    //   // display: none;
+
+    //   img {
+    //     height: 100%;
+    //     width: 100%;
+    //     object-fit: cover;
+    //   }
+    // }
 
   }
 
@@ -58,7 +76,7 @@
     height: 100vh;
 
     h1 {
-      color: #2f5264;
+      // color: #2f5264;
       font-weight: bold;
     }
 
@@ -127,15 +145,24 @@
   .section-projet {
     align-items: center;
     // justify-content: space-around;
-    gap: 75px;
+    gap: 15px;
+    background-color: #DDA15E;
     
     h1 {
-      color: #2f5264;
+      color: #FEFAE0;
       font-weight: bold;
+      padding-top: 25px;
+    }
+
+    a {
+      color: #FEFAE0;
+      padding-top: 25px;
+      font-size: 1.1rem;
     }
 
     @media screen and (min-width: 1350px) {
       min-height: 100vh;
+      gap: 75px;
     }
 
     .texte-section {
@@ -150,16 +177,11 @@
 
     }
 
-    .les-projets {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 50px;
-
-      @media screen and (min-width: 1024px) {
-        flex-direction: row;
-      }
-    }
+    // .conteneur-projets-accueil {
+    //   .lesProjets {
+        
+    //   }
+    // }
   }
 
   .section-teimoignage {
@@ -168,9 +190,10 @@
     gap: 75px;
 
     h1 {
+      padding-top: 25px;
       text-align: center;
       margin-top: 100px;
-      color: #2f5264;
+      // color: #2f5264;
       font-weight: bold;
 
       @media screen and (min-width: 1024px) {

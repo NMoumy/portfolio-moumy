@@ -18,9 +18,10 @@ export default function Accueil() {
           <h1>Bonjour! Mon nom est</h1>
           <h1>Moumy Ndiaye</h1>
         </div>
-        <div className='mon-image'>
+        {/* <div className='mon-image'>
           <img src="./images/moumy.png" alt="moumy" />
-        </div>
+        </div> */}
+        <div className="deco"><img src="./svg/deco-presentation.svg" alt="" /></div>
       </section>
 
       <section className='section-propos'>
@@ -51,7 +52,7 @@ export default function Accueil() {
           <h1>Mes projets</h1>
           <Link href="/projets">Voir tout mes projets</Link>
         </div>
-        <div className='les-projets'>
+        <div className='conteneur-projets-accueil'>
           <LesProjets nombreDeProjets={3} />
         </div>
         
