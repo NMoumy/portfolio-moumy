@@ -3,7 +3,7 @@ import '../styles/lesProjets.scss'
 import UnProjet from './unProjet'
 
 // Importer les données du fichier JSON
-const projetsData = require('../../../data/projets.json')
+const projetsData = require('../../../data/projets.json');
 
 interface LesProjetsProps {
   nombreDeProjets?: number;

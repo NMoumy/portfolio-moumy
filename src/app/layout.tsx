@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import './styles/globals.scss'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Entete from './composants/entete'
 import Footer from './composants/footer'
 
