@@ -42,12 +42,18 @@
     }
 
     .deco {
+      user-select: none;
       display: flex;
       position: absolute;
       bottom: 0;
       right: 0;
+      height: 100%;
       width: 100vw;
-      height: auto;
+
+      @media screen and (min-width: 1024px) {
+        width: 100vw;
+        height: auto;
+      }
 
       img {
         height: 100%;

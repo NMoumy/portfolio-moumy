@@ -59,7 +59,7 @@ export default function Accueil() {
       </section>
 
       <section className='section-teimoignage'>
-        <h1>Témoignages sur mes competences</h1>
+        <h1>Témoignages sur mes compétences</h1>
         <TemoignagesCarousel />
       </section>
 

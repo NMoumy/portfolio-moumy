@@ -10,6 +10,7 @@
   position: relative;
 
   .deco-pied-page {
+    user-select: none;
     display: flex;
     position: absolute;
     bottom: 300px;
@@ -24,6 +25,10 @@
     }
   }
 
+  p {
+    text-align: center;
+  }
+
   .contacte {
     text-align: center;
     
@@ -31,9 +36,9 @@
       font-weight: bold;
     }
 
-    p{
-      // font-size: .rem;
-    }
+    // p{
+    //   // font-size: .rem;
+    // }
   }
 
   .liens {
