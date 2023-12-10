@@ -10,7 +10,7 @@ export default function Projet() {
 
       <div className='bloc-propos'>
         <div className='img-propos'>
-          <img src='/images/image3.jpg' alt='Moumy' />
+          <img src='/images/propos5.jpg' alt='Moumy' />
         </div>
         <div className='texte-propos'>
           <p>

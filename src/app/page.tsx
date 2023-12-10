@@ -18,9 +18,9 @@ export default function Accueil() {
           <h1>Bonjour! Mon nom est</h1>
           <h1>Moumy Ndiaye</h1>
         </div>
-        {/* <div className='mon-image'>
-          <img src="./images/moumy.png" alt="moumy" />
-        </div> */}
+        <div className='mon-image'>
+          <img src="./images/moi.png" alt="moumy" />
+        </div>
         <div className="deco"><img src="./svg/deco-presentation.svg" alt="" /></div>
       </section>
 
@@ -28,7 +28,7 @@ export default function Accueil() {
 
         <div className='bloc-propos'>
           <div className='image-propos'>
-            <img src="/images/image9.jpg" alt="" />
+            <img src="/images/propos1.jpg" alt="" />
           </div>
 
           <div className='texte-propos'>
