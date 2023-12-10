@@ -41,10 +41,10 @@
   },
   {
     "id": "6",
-    "titre": "Le restaurant",
-    "description": "Le restaurant simule un site web d'un restaurant avec un menu et des informations sur l'entreprise. Cette application est réaliser avec React.",
-    "image": "/images/restaurant.jpg",
-    "githubUrl": "https://github.com/user/projet6",
-    "projetUrl": "https://www.example.com/projet6"
+    "titre": "La Vengeance des Royaumes",
+    "description": "Dans le cadre de mon cours sur la création de jeux en équipe, j'ai dû concevoir un jeu avec une équipe de 4 personnes. Pour notre projet, nous avons choisi de créer un jeu de style Mortal Kombat en 3D, où deux royaumes s'affrontent. Mon rôle au sein de l'équipe consistait à prendre en charge le système de combat et à concevoir toutes les interfaces du jeu.",
+    "image": "/images/lvdr.png",
+    "githubUrl": "https://github.com/LaVengeanceDesRoyaumes/LaVengeanceDesRoyaumes",
+    "projetUrl": "https://audrey808.itch.io/la-vengeance-des-royaumes"
   }
 ]

@@ -41,7 +41,7 @@ export default function Accueil() {
               le vaste monde du développement web...
             </p>
 
-            <Link href="/propos">En savoir plus</Link>
+            <Link href="/propos" className='lien-accueil'>En savoir plus</Link>
           </div>
         </div>
 
@@ -50,7 +50,7 @@ export default function Accueil() {
       <section className='section-projet'>
         <div className='texte-section'>
           <h1>Mes projets</h1>
-          <Link href="/projets">Voir tout mes projets</Link>
+          <Link href="/projets" className='lien-accueil'>Voir tous mes projets</Link>
         </div>
         <div className='conteneur-projets-accueil'>
           <LesProjets nombreDeProjets={3} />

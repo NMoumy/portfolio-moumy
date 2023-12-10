@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className='piedDePage'>
       <div className='deco-pied-page'><img src="./svg/deco-pied-page.svg" alt="" /></div>
       <div className='contacte'>
-        <h2>contacte</h2>
+        <h2>contact</h2>
         <p>moumyndiaye@outlook.com</p>
       </div>
       <div className='liens'>

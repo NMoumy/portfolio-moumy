@@ -2,6 +2,18 @@
   background-color: #FBFBFB;
   position: relative;
 
+  .lien-accueil {
+    // color: #DDA15E;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: color 0.3s ease-in-out;
+    
+    &:hover {
+      color: #BC6C25;
+    }
+  }
+
   section {
     display: flex;
     flex-direction: column;
