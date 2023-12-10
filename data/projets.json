@@ -28,16 +28,16 @@
     "titre": "La calculatrice",
     "description": "La calculatrice est une application qui permet à l'utilisateur d'effectuer des opérations mathématiques simples. L'objectif de ce projet était de créer une application qui fonctionne comme une calculatrice réelle. L'application est modulaire et adaptative est programmée avec JavaScript. ",
     "image": "/images/image4.jpg",
-    "githubUrl": "https://github.com/user/projet4",
-    "projetUrl": "https://www.example.com/projet4"
+    "githubUrl": "https://github.com/NMoumy/calculatrice",
+    "projetUrl": "https://nmoumy.github.io/calculatrice/"
   },
   {
     "id": "5",
     "titre": "MundiQuiz",
     "description": "MundiQuiz est une application de quiz sur les drapeaux. L'objectif est de choisir le nom du pays correspondant au drapeau. À la fin, le score de l'utilisateur sera dévoilé. Cette application est programmée en JavaScript.",
     "image": "/images/image5.jpg",
-    "githubUrl": "https://github.com/user/projet5",
-    "projetUrl": "https://www.example.com/projet5"
+    "githubUrl": "https://github.com/NMoumy/mundiquiz",
+    "projetUrl": "https://nmoumy.github.io/mundiquiz/"
   },
   {
     "id": "6",
