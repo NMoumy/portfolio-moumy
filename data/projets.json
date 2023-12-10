@@ -2,15 +2,15 @@
   {
     "id": "1",
     "titre": "Le Memo",
-    "description": "Dans le cadre de mon cours interfaces web réactives et animées, j'ai dû créer une application React monopage pour gérer une liste de tâches à compléter. Mon application est modulaire, adaptative et comporte des effets d'animation pertinents pour l'interactivité de l'interface utilisateur (IU).",
+    "description": "Voici une application monopage React destinée à la gestion d'une liste de tâches à compléter. Mon application est modulaire, adaptative et intègre des effets d'animation pertinents pour améliorer l'interactivité de l'interface utilisateur (IU).",
     "image": "/images/image1.jpg",
-    "githubUrl": "https://github.com/NMoumy/memo",
-    "projetUrl": "https://www.example.com/projet1"
+    "githubUrl": "https://github.com/NMoumy/memo-react",
+    "projetUrl": "https://memo-react.vercel.app/"
   },
   {
     "id": "2",
     "titre": "TIM",
-    "description": "Description du projet 2",
+    "description": "Cette application est en cours de développement : Ce application a été réalisé en équipe dans le cadre de mon cours de projet web en équipe. Notre tâche était de concevoir le site de notre programme d'études sur WordPress. Nous avons dû utiliser du JavaScript et du PHP. Mon rôle au sein de l'équipe était de m'occuper de l'intégration et de la programmation PHP, ainsi que de créer la maquette et quelques extensions.",
     "image": "/images/image2.jpg",
     "githubUrl": "https://github.com/Hydra-5w5/hydraTim",
     "projetUrl": "https://cidweb37.sg-host.com/"
@@ -18,7 +18,7 @@
   {
     "id": "3",
     "titre": "Image du jour",
-    "description": "Ce projet a été réalisé dans le cadre du cours 'Interfaces Web réactives et animées', où l'objectif était d'intégrer une base de données Firebase. L'application permet à l'utilisateur de visualiser des images du jour, tout en offrant des fonctionnalités telles que la gestion des likes, des commentaires, et la possibilité d'apprécier une image grâce aux flèches de contrôle.",
+    "description": "Cette application permet à l'utilisateur de visualiser des images du jour tout en offrant des fonctionnalités telles que la gestion des likes, des commentaires et la possibilité d'apprécier une image grâce aux flèches de contrôle. Ce projet intègre une base de données Firebase afin de stocker toutes ces informations pertinentes. Il est également developper avec React.",
     "image": "/images/image3.jpg",
     "githubUrl": "https://github.com/user/projet3",
     "projetUrl": "https://image-du-jour.vercel.app/"
@@ -26,7 +26,7 @@
   {
     "id": "4",
     "titre": "La calculatrice",
-    "description": "Description du projet 4",
+    "description": "La calculatrice est une application qui permet à l'utilisateur d'effectuer des opérations mathématiques simples. L'objectif de ce projet était de créer une application qui fonctionne comme une calculatrice réelle. L'application est modulaire et adaptative est programmée avec JavaScript. ",
     "image": "/images/image4.jpg",
     "githubUrl": "https://github.com/user/projet4",
     "projetUrl": "https://www.example.com/projet4"
@@ -34,7 +34,7 @@
   {
     "id": "5",
     "titre": "MundiQuiz",
-    "description": "Description du projet 5",
+    "description": "MundiQuiz est une application de quiz sur les drapeaux. L'objectif est de choisir le nom du pays correspondant au drapeau. À la fin, le score de l'utilisateur sera dévoilé. Cette application est programmée en JavaScript.",
     "image": "/images/image5.jpg",
     "githubUrl": "https://github.com/user/projet5",
     "projetUrl": "https://www.example.com/projet5"
@@ -42,7 +42,7 @@
   {
     "id": "6",
     "titre": "Le restaurant",
-    "description": "Description du projet 6",
+    "description": "Le restaurant simule un site web d'un restaurant avec un menu et des informations sur l'entreprise. Cette application est réaliser avec React.",
     "image": "/images/image6.jpg",
     "githubUrl": "https://github.com/user/projet6",
     "projetUrl": "https://www.example.com/projet6"
