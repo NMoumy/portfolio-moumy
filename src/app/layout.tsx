@@ -6,7 +6,7 @@ import Footer from './composants/footer'
 
 export const metadata: Metadata = {
   title: 'Moumy Ndiaye',
-  description: 'Portfolio developper avec create next app',
+  description: 'Portfolio développer avec create next app',
 }
 
 export default function RootLayout({
