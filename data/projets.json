@@ -1,11 +1,11 @@
 [
   {
     "id": "1",
-    "titre": "Le Memo",
-    "description": "Voici une application monopage React destinée à la gestion d'une liste de tâches à compléter. Mon application est modulaire, adaptative et intègre des effets d'animation pertinents pour améliorer l'interactivité de l'interface utilisateur (IU).",
-    "image": "/images/memo.png",
-    "githubUrl": "https://github.com/NMoumy/memo-react",
-    "projetUrl": "https://memo-react.vercel.app/"
+    "titre": "Appli Température",
+    "description": "Cette application React monopage affiche en temps réel la température et l'humidité grâce à un capteur SHT30 connecté à un ESP32. Pour développer l'application, j'ai utilisé Firebase pour assurer le stockage des données en temps réel. De plus, j'ai programmé en C++ avec l'IDE Arduino afin de récupérer les données du SHT30 et les envoyer dans une base de données.",
+    "image": "/images/appli-temperature.png",
+    "githubUrl": "https://github.com/NMoumy/appli-temperature",
+    "projetUrl": "https://appli-temperature.vercel.app/"
   },
   {
     "id": "2",
@@ -25,6 +25,14 @@
   },
   {
     "id": "4",
+    "titre": "Le Memo",
+    "description": "Voici une application monopage React destinée à la gestion d'une liste de tâches à compléter. Mon application est modulaire, adaptative et intègre des effets d'animation pertinents pour améliorer l'interactivité de l'interface utilisateur (IU).",
+    "image": "/images/memo.png",
+    "githubUrl": "https://github.com/NMoumy/memo-react",
+    "projetUrl": "https://memo-react.vercel.app/"
+  },
+  {
+    "id": "5",
     "titre": "La calculatrice",
     "description": "La calculatrice est une application qui permet à l'utilisateur d'effectuer des opérations mathématiques simples. L'objectif de ce projet était de créer une application qui fonctionne comme une calculatrice réelle. L'application est modulaire et adaptative est programmée avec JavaScript. ",
     "image": "/images/calculatrice.png",
@@ -32,7 +40,7 @@
     "projetUrl": "https://nmoumy.github.io/calculatrice/"
   },
   {
-    "id": "5",
+    "id": "6",
     "titre": "MundiQuiz",
     "description": "MundiQuiz est une application de quiz sur les drapeaux. L'objectif est de choisir le nom du pays correspondant au drapeau. À la fin, le score de l'utilisateur sera dévoilé. Cette application est programmée en JavaScript.",
     "image": "/images/mundiquiz.png",
@@ -40,7 +48,7 @@
     "projetUrl": "https://nmoumy.github.io/mundiquiz/"
   },
   {
-    "id": "6",
+    "id": "7",
     "titre": "La Vengeance des Royaumes",
     "description": "Dans le cadre de mon cours sur la création de jeux en équipe, j'ai dû concevoir un jeu avec une équipe de 4 personnes. Pour notre projet, nous avons choisi de créer un jeu de style Mortal Kombat en 3D, où deux royaumes s'affrontent. Mon rôle au sein de l'équipe consistait à prendre en charge le système de combat et à concevoir toutes les interfaces du jeu.",
     "image": "/images/lvdr.png",
