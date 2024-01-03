@@ -2,7 +2,7 @@
   {
     "id": "1",
     "titre": "Appli Température",
-    "description": "Cette application React monopage affiche en temps réel la température et l'humidité grâce à un capteur SHT30 connecté à un ESP32. Pour développer l'application, j'ai utilisé Firebase pour assurer le stockage des données en temps réel. De plus, j'ai programmé en C++ avec l'IDE Arduino afin de récupérer les données du SHT30 et les envoyer dans une base de données.",
+    "description": "Cette application monopage React affiche en temps réel la température et l'humidité grâce à un capteur SHT30 connecté à un ESP32. Pour développer l'application, j'ai utilisé Firebase pour assurer le stockage des données en temps réel. De plus, j'ai programmé en C++ avec l'IDE Arduino afin de récupérer les données du SHT30 et les envoyer dans une base de données. Important : Les mises à jour de température ne sont pas affichées car la carte de développement n'est pas branchée.",
     "image": "/images/appli-temperature.png",
     "githubUrl": "https://github.com/NMoumy/appli-temperature",
     "projetUrl": "https://appli-temperature.vercel.app/"
